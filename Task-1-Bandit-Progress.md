@@ -666,6 +666,8 @@ Connection to bandit.labs.overthewire.org closed.
 
 **Evidence:** screenshots/07-level-4-to-5.png
 
+The `ls -la` command shows hidden files, file permissions, ownership, file sizes, and modification dates that a normal `ls` command does not display. This is important when reviewing a log directory because it helps security analysts find hidden files and identify unusual permissions, ownership, or file modifications that may indicate suspicious activity.
+
 ## Application of Linux Commands in Security Log Review
 
 The Linux commands practiced in this task are useful for reviewing security logs. For example, ls -la helps security analysts view all files, including hidden files, and check their permissions, ownership, and modification dates. This can help identify unusual files or suspicious changes during an investigation. Similarly, commands such as cat, grep, and find help read log contents, search for suspicious login attempts, and locate relevant files.
