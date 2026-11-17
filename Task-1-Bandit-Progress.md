@@ -666,6 +666,9 @@ Connection to bandit.labs.overthewire.org closed.
 
 **Evidence:** screenshots/07-level-4-to-5.png
 
+## Application of Linux Commands in Security Log Review
+
+The Linux commands practiced in this task are useful for reviewing security logs. For example, ls -la helps security analysts view all files, including hidden files, and check their permissions, ownership, and modification dates. This can help identify unusual files or suspicious changes during an investigation. Similarly, commands such as cat, grep, and find help read log contents, search for suspicious login attempts, and locate relevant files.
 
 ## 3. Conclusion
 
