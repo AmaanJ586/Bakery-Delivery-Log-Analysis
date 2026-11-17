@@ -666,13 +666,9 @@ Connection to bandit.labs.overthewire.org closed.
 
 **Evidence:** screenshots/07-level-4-to-5.png
 
-## Application in Cyber Security
+## Application of Linux Commands in Security Log Review
 
-The Linux commands practiced in this task are useful in real-world security investigations.
-
-For example, security analysts can use commands such as `cat`, `grep`, `find`, and `ls` to inspect authentication logs, search for suspicious login attempts, locate relevant files, and investigate unusual system activity.
-
-These skills provide a foundation for analyzing the bakery's authentication logs and identifying possible brute-force attacks in the upcoming tasks.
+During this task, I used the `ls -la` command to view all files in a directory, including hidden files, along with their permissions, ownership, sizes, and modification dates. When investigating a log folder, this helps an analyst discover hidden or unexpected files and notice unusual permissions or recent changes. These details can provide useful clues when investigating unauthorized access or a possible intrusion.
 
 ## 3. Conclusion
 
