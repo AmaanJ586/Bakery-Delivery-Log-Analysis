@@ -65,7 +65,7 @@ All commands, terminal outputs, and retrieved level passwords are documented sep
 
 **[Task-1-Bandit-Progress.md](Task-1-Bandit-Progress.md)**
 
-Screenshots of the practical work are available in the root repository.
+Screenshots of the practical work are available in the `screenshots` folder.
 
 ## Learning Outcomes
 
@@ -86,9 +86,98 @@ For example, security analysts can use commands such as `cat`, `grep`, `find`, a
 
 These skills provide a foundation for analyzing the bakery's authentication logs and identifying possible brute-force attacks in the upcoming tasks.
 
+
+## Task 2: Bakery Authentication Log Analysis and Intrusion Triage
+
+### Project Description
+
+In this task, a simulated authentication log containing 50 entries was created for Golden Crust Bakery. The log was analyzed using Bash commands and Linux utilities to identify repeated failed SSH login attempts and suspicious source IP addresses.
+
+The objective was to understand basic log analysis, recognize possible brute-force activity, and prepare an incident response and mitigation plan.
+
+### Tools and Commands Used
+
+- Git Bash
+- Visual Studio Code
+- `grep` – Search for failed login attempts.
+- `awk` – Extract IP addresses from log entries.
+- `sort` – Sort extracted data.
+- `uniq -c` – Count repeated IP addresses.
+- `wc -l` – Count total log entries.
+- Bash scripting – Automate the analysis process.
+
+### Work Completed
+
+1. Created a simulated `auth.log` file containing 50 authentication log entries.
+2. Used `grep` to identify failed SSH login attempts.
+3. Used `awk` to extract source IP addresses.
+4. Used `sort` and `uniq -c` to count failed attempts from each IP.
+5. Identified suspicious IP addresses based on repeated login failures.
+6. Created a Bash script (`analyze.sh`) to automate the log analysis.
+7. Documented findings and command outputs in `report.md`.
+8. Prepared an incident response checklist and mitigation recommendations in `incident-response.md`.
+
+### Analysis Summary
+
+The analysis identified repeated failed login attempts from multiple source IP addresses. The primary suspicious IP was identified based on the highest number of failed attempts.
+
+A threshold of five or more failed login attempts from the same IP was used to classify activity as suspicious.
+
+The detailed findings, IP addresses, timestamps, and command outputs are documented in `report.md`.
+
+### Incident Response and Mitigation
+
+An incident response checklist was prepared for the Golden Crust Bakery system administrator.
+
+Recommended security measures include:
+
+- Review authentication logs regularly.
+- Investigate repeated failed login attempts.
+- Block confirmed malicious IP addresses using the server firewall.
+- Enforce strong and unique passwords.
+- Enable multi-factor authentication where supported.
+- Disable direct root login over SSH.
+- Use SSH key-based authentication where possible.
+- Configure Fail2ban or an equivalent intrusion-prevention tool.
+- Keep the server and security software updated.
+
+### Project Files
+
+All Task 2 files are available in the `bakery-log-analysis` folder:
+
+| File | Description |
+|---|---|
+| `auth.log` | Simulated authentication log containing 50 entries |
+| `analyze.sh` | Bash script for automated log analysis |
+| `report.md` | Detailed analysis findings and command outputs |
+| `incident-response.md` | Incident response checklist and mitigation summary |
+
+### Learning Outcomes
+
+Through this task, I gained practical experience with:
+
+- Analyzing authentication logs using Linux commands.
+- Extracting and counting IP addresses.
+- Identifying repeated failed login attempts.
+- Recognizing possible brute-force attack patterns.
+- Automating log analysis using Bash scripting.
+- Preparing incident response and defensive security recommendations.
+
+**Note:** This project uses simulated log data. No real attack or compromised system was confirmed.
+
+---
+
+## Overall Learning Outcomes
+
+By completing these tasks, I gained practical knowledge of Linux command-line operations, SSH connections, log analysis, Bash scripting, basic intrusion detection, and incident response procedures.
+
+These skills provide a foundation for understanding and performing basic cybersecurity investigations.
+
 ## Project Status
 
 **Task 1: Completed**
+
+**Task 2: Completed**
 
 Tasks 2 and 3 will focus on authentication log analysis, intrusion triage, and defensive security recommendations.
 
