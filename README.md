@@ -65,7 +65,7 @@ All commands, terminal outputs, and retrieved level passwords are documented sep
 
 **[Task-1-Bandit-Progress.md](Task-1-Bandit-Progress.md)**
 
-Screenshots of the practical work are available in the `screenshots` folder.
+Screenshots of the practical work are available in the root repository.
 
 ## Learning Outcomes
 
