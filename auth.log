@@ -1,0 +1,51 @@
+Nov 17 08:01:12 bakery-server sshd[2101]: Accepted password for admin from 198.51.100.20 port 51422 ssh2
+Nov 17 08:03:45 bakery-server sshd[2102]: Failed password for invalid user test from 203.0.113.77 port 52110 ssh2
+Nov 17 08:04:02 bakery-server sshd[2103]: Failed password for admin from 192.0.2.45 port 53001 ssh2
+Nov 17 08:04:18 bakery-server sshd[2104]: Failed password for admin from 192.0.2.45 port 53002 ssh2
+Nov 17 08:05:11 bakery-server sshd[2105]: Accepted password for bakeryuser from 198.51.100.31 port 51430 ssh2
+Nov 17 08:06:03 bakery-server sshd[2106]: Failed password for root from 192.0.2.45 port 53003 ssh2
+Nov 17 08:06:29 bakery-server sshd[2107]: Failed password for admin from 192.0.2.45 port 53004 ssh2
+Nov 17 08:07:14 bakery-server sshd[2108]: Connection closed by authenticating user guest 203.0.113.88 port 54011 [preauth]
+Nov 17 08:08:02 bakery-server sshd[2109]: Failed password for admin from 192.0.2.45 port 53005 ssh2
+Nov 17 08:09:37 bakery-server sshd[2110]: Accepted publickey for deploy from 198.51.100.44 port 55020 ssh2
+Nov 17 08:10:05 bakery-server sshd[2111]: Failed password for invalid user oracle from 203.0.113.77 port 52111 ssh2
+Nov 17 08:11:16 bakery-server sshd[2112]: Failed password for admin from 192.0.2.45 port 53006 ssh2
+Nov 17 08:12:40 bakery-server sshd[2113]: Failed password for admin from 192.0.2.45 port 53007 ssh2
+Nov 17 08:13:22 bakery-server sshd[2114]: Accepted password for support from 198.51.100.20 port 51445 ssh2
+Nov 17 08:14:09 bakery-server sshd[2115]: Failed password for root from 203.0.113.88 port 54012 ssh2
+Nov 17 08:15:31 bakery-server sshd[2116]: Failed password for admin from 192.0.2.45 port 53008 ssh2
+Nov 17 08:16:02 bakery-server sshd[2117]: Connection closed by authenticating user admin 192.0.2.45 port 53009 [preauth]
+Nov 17 08:17:18 bakery-server sshd[2118]: Failed password for invalid user postgres from 203.0.113.77 port 52112 ssh2
+Nov 17 08:18:44 bakery-server sshd[2119]: Accepted password for bakeryuser from 198.51.100.31 port 51460 ssh2
+Nov 17 08:19:07 bakery-server sshd[2120]: Failed password for admin from 192.0.2.45 port 53010 ssh2
+Nov 17 08:20:13 bakery-server sshd[2121]: Failed password for admin from 192.0.2.45 port 53011 ssh2
+Nov 17 08:21:55 bakery-server sshd[2122]: Failed password for root from 203.0.113.88 port 54013 ssh2
+Nov 17 08:22:30 bakery-server sshd[2123]: Accepted publickey for deploy from 198.51.100.44 port 55031 ssh2
+Nov 17 08:23:06 bakery-server sshd[2124]: Failed password for admin from 192.0.2.45 port 53012 ssh2
+Nov 17 08:24:41 bakery-server sshd[2125]: Failed password for invalid user test from 203.0.113.77 port 52113 ssh2
+Nov 17 08:25:17 bakery-server sshd[2126]: Failed password for admin from 192.0.2.45 port 53013 ssh2
+Nov 17 08:26:03 bakery-server sshd[2127]: Accepted password for support from 198.51.100.20 port 51472 ssh2
+Nov 17 08:27:29 bakery-server sshd[2128]: Failed password for admin from 192.0.2.45 port 53014 ssh2
+Nov 17 08:28:10 bakery-server sshd[2129]: Failed password for root from 192.0.2.45 port 53015 ssh2
+Nov 17 08:29:46 bakery-server sshd[2130]: Connection closed by authenticating user guest 203.0.113.88 port 54014 [preauth]
+Nov 17 08:30:21 bakery-server sshd[2131]: Failed password for admin from 192.0.2.45 port 53016 ssh2
+Nov 17 08:31:05 bakery-server sshd[2132]: Accepted password for bakeryuser from 198.51.100.31 port 51490 ssh2
+Nov 17 08:32:14 bakery-server sshd[2133]: Failed password for invalid user backup from 203.0.113.77 port 52114 ssh2
+Nov 17 08:33:38 bakery-server sshd[2134]: Failed password for admin from 192.0.2.45 port 53017 ssh2
+Nov 17 08:34:02 bakery-server sshd[2135]: Failed password for admin from 192.0.2.45 port 53018 ssh2
+Nov 17 08:35:27 bakery-server sshd[2136]: Accepted publickey for deploy from 198.51.100.44 port 55102 ssh2
+Nov 17 08:36:11 bakery-server sshd[2137]: Failed password for root from 203.0.113.88 port 54015 ssh2
+Nov 17 08:37:49 bakery-server sshd[2138]: Failed password for admin from 192.0.2.45 port 53019 ssh2
+Nov 17 08:38:20 bakery-server sshd[2139]: Failed password for invalid user mysql from 203.0.113.77 port 52115 ssh2
+Nov 17 08:39:06 bakery-server sshd[2140]: Accepted password for support from 198.51.100.20 port 51501 ssh2
+Nov 17 08:40:33 bakery-server sshd[2141]: Failed password for admin from 192.0.2.45 port 53020 ssh2
+Nov 17 08:41:12 bakery-server sshd[2142]: Failed password for admin from 192.0.2.45 port 53021 ssh2
+Nov 17 08:42:58 bakery-server sshd[2143]: Connection closed by authenticating user admin 192.0.2.45 port 53022 [preauth]
+Nov 17 08:43:26 bakery-server sshd[2144]: Failed password for root from 203.0.113.88 port 54016 ssh2
+Nov 17 08:44:09 bakery-server sshd[2145]: Failed password for admin from 192.0.2.45 port 53023 ssh2
+Nov 17 08:45:41 bakery-server sshd[2146]: Accepted password for bakeryuser from 198.51.100.31 port 51520 ssh2
+Nov 17 08:46:17 bakery-server sshd[2147]: Failed password for admin from 192.0.2.45 port 53024 ssh2
+Nov 17 08:47:03 bakery-server sshd[2148]: Failed password for invalid user guest from 203.0.113.77 port 52116 ssh2
+Nov 17 08:48:35 bakery-server sshd[2149]: Accepted publickey for deploy from 198.51.100.44 port 55130 ssh2
+Nov 17 08:49:52 bakery-server sshd[2150]: Failed password for admin from 192.0.2.45 port 53025 ssh2
+Nov 17 08:50:16 bakery-server sshd[2151]: Failed password for admin from 192.0.2.45 port 53026 ssh2
