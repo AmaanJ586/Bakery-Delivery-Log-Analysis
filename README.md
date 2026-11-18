@@ -167,6 +167,70 @@ Through this task, I gained practical experience with:
 
 ---
 
+---
+
+## Task 3: Incident Triage Summary and Defensive Remediation Plan
+
+### Project Description
+
+In this task, an incident response and defensive remediation plan was prepared for Golden Crust Bakery based on the authentication log findings from Task 2.
+
+The objective was to outline immediate containment actions, improve server security, and recommend preventive measures against unauthorized access and SSH brute-force attempts.
+
+### Tools Used
+
+- Visual Studio Code
+- Markdown
+- Git and GitHub
+- UFW Firewall commands
+- Linux security utilities
+
+### Work Completed
+
+1. Reviewed suspicious IP addresses and failed login counts identified in Task 2.
+2. Prepared an incident response checklist for the bakery's system administrator.
+3. Documented UFW firewall commands for blocking confirmed malicious IP addresses.
+4. Recommended account lockout thresholds to reduce repeated login attempts.
+5. Suggested SSH key-only authentication and disabling direct root login.
+6. Included SSH rate limiting recommendations.
+7. Documented log monitoring, backup, and retention practices.
+8. Prepared final security recommendations for the bakery's server.
+
+### Security Recommendations
+
+The incident response plan includes:
+
+- Blocking verified malicious IP addresses using UFW.
+- Implementing account lockout policies.
+- Using SSH key-based authentication.
+- Disabling direct root login over SSH.
+- Applying SSH connection rate limiting.
+- Monitoring and preserving authentication logs.
+- Enforcing strong passwords and regular security updates.
+
+### Project Documentation
+
+The complete incident response and remediation plan is available in:
+
+**[incident-response.md](bakery-log-analysis/incident-response.md)**
+
+The document includes the incident overview, response checklist, containment procedures, firewall rules, account lockout policy, SSH security recommendations, log retention practices, and conclusion.
+
+### Learning Outcomes
+
+Through this task, I gained practical knowledge of:
+
+- Basic incident response planning.
+- Firewall-based IP blocking.
+- Account lockout policies.
+- SSH security configuration.
+- Rate limiting and intrusion prevention.
+- Security log monitoring and retention.
+- Preparing professional cybersecurity handover documentation.
+
+---
+
+
 ## Overall Learning Outcomes
 
 By completing these tasks, I gained practical knowledge of Linux command-line operations, SSH connections, log analysis, Bash scripting, basic intrusion detection, and incident response procedures.
@@ -179,7 +243,7 @@ These skills provide a foundation for understanding and performing basic cyberse
 
 **Task 2: Completed**
 
-Tasks 2 and 3 will focus on authentication log analysis, intrusion triage, and defensive security recommendations.
+**Task 3: Completed**
 
 ---
 
